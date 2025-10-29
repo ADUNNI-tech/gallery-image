@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery with Grid</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f5f5f5;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+    }
+.gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: contain;
+      border-radius: 8px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <h1>My Image Gallery</h1>
+  <div class="gallery">
+    <figure>
+      <img src="https://www.instyle.com/thmb/B_ZiHc1MOY2od_OwMhz3TgemJco=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/062025-LOTD-Keke-Palmer-lead-36ea2cedad334f5a93119d37d4556c9e.jpg" height="200px" alt="Image 1">
+      
+    </figure>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTb6hutXhdiAk-cblZbX4OeJ61VhlO1p3G0w&s" alt="Image 2">
+    <img src="https://s3.amazonaws.com/thumbnails.thecrimson.com/photos/2023/03/06/203449_1361825.jpg.2000x1333_q95_crop-smart_upscale.jpg"alt="Image 3">
+    <img src="https://i.ytimg.com/vi/cqoBgcL18Bg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDk8vakZw-LK2Mkw0d-sc-Zuof84w" alt="Image 4">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ4GP1XJ5fvXA4BSADI3ew4p4Fwq5sfPxmKThWeYNdz9SP04OlYzFt5BZ0hPkv81RrVUE&usqp=CAU" alt="Image 5">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJTndKaZ5jGx18aVftk22CdgcvGvUkaZI4SrxyRnacxW4g4_ZfajyrqVg0cM-S413-xnE&usqp=CAU" alt="Image 6">
+
+
+</h2>
+
+    </div>
+    </body>
+    </html>
